@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "protectmykeybinds",
+  "version": "${version}",
+  "name": "ProtectMyKeybinds",
+  "description": "Prevents non-vanilla keybinds from being parsed in text components.",
+  "authors": ["fridge"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "gg.fridge.ProtectMyKeybinds.ModEntry"
+    ]
+  },
+  "icon": "assets/protectmykeybinds/icon.png",
+  "mixins": [
+    "protectmykeybinds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

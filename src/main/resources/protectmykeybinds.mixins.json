@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "gg.fridge.ProtectMyKeybinds.Mixins",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "KeyMappingMixin",
+    "KeyMappingRegistryImplMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
