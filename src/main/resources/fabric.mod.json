@@ -5,7 +5,11 @@
   "name": "ProtectMyKeybinds",
   "description": "Prevents non-vanilla keybinds from being parsed in text components.",
   "authors": ["fridge"],
-  "contact": {},
+  "contact": {
+    "homepage": "https://modrinth.com/mod/protectmykeybinds",
+    "sources": "https://github.com/supafridge/ProtectMyKeybinds",
+    "issues": "https://github.com/supafridge/ProtectMyKeybinds/issues"
+  },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
@@ -20,6 +24,7 @@
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": ["26.1.x", "26.2.x", "26.3.x"],
+    "java": ">=25"
   }
 }
